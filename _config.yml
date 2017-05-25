@@ -235,7 +235,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/docs/_posts/2017-05-25-test-blog.md"
       type: posts
     values:
       layout: single
