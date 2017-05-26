@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Anas Zurkiyeh's Portfolio"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Anas Zurkiyeh"
+description              : "This personal website highlights my main projects and contributions"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : #200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -26,7 +26,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 10 # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Anas Zurkiyeh"
+  avatar           : "/assets/media/20170526_111400.png"
+  bio              : "I am a 5th year Electrical Engineering and Computer Technology Student at the University of Ottawa. Im mostly interested in Systems Design and component integration. In addition to the applications of software in Engineering"
+  location         : "Ottawa, Ontario, Canada"
+  email            : "anas.zurkiyeh@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://ca.linkedin.com/in/anas-zurkiyeh-9b8573b3"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -172,7 +172,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
