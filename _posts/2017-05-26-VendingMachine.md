@@ -1,4 +1,3 @@
-
 ---
 title: VHDL Vending Machine 
 date: 2017-05-26 11:00:00
