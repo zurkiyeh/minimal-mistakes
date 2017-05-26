@@ -11,10 +11,10 @@ title                    : "Anas Zurkiyeh's Portfolio"
 title_separator          : "-"
 name                     : "Anas Zurkiyeh"
 description              : "This personal website highlights my main projects and contributions"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://zurkiyeh.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/media/20170526_111400.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : #200
 comments:
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://ca.linkedin.com/in/anas-zurkiyeh-9b8573b3"
+  linkedin         : "https://www.linkedin.com/in/anas-zurkiyeh-9b8573b3"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
