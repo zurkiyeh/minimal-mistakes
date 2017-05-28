@@ -3,6 +3,8 @@ title: VHDL Vending Machine
 date: 2017-05-26 11:00:00
 ---
 
+
+
 ## Project source code
 
 For the source code for this project, please refer to the following github repository [VHDL Vending Machine](https://github.com/zurkiyeh/VendingMachine)
