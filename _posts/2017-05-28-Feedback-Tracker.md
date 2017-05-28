@@ -15,7 +15,7 @@ The main purpose of this application is to employ the computer vision library op
 
 ## Motivation
 
-This application was developed for [iBionics] (http://www.ibionics.ca). Which is a startup company that is planning to use this project as a basis for their main system. The main system consists of 2 subsystems; Tracking and detection subsystem as well as transmition and recieving subsystem.
+This application was developed for [iBionics](http://www.ibionics.ca). Which is a startup company that is planning to use this project as a basis for their main system. The main system consists of 2 subsystems; Tracking and detection subsystem as well as transmition and recieving subsystem.
 
 ## Installation
 
