@@ -3,7 +3,6 @@ title: VHDL Vending Machine
 date: 2017-05-26 11:00:00
 ---
 
-
 ## Synopsis
 
 This is a VHDL project to implement a Vending Machine. The purpose of the project is to employ RTL design to implement a simple vending
