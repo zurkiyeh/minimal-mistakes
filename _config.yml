@@ -13,7 +13,7 @@ name                     : "Anas Zurkiyeh"
 description              : "This personal website highlights my main projects and contributions"
 url                      : "https://zurkiyeh.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "zurkiyeh/"
 teaser                   : "/assets/media/20170526_111400.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 20
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Anas Zurkiyeh"
   avatar           : "/assets/media/20170526_111400.png"
-  bio              : "I am a 5th year Electrical Engineering and Computer Technology Student at the University of Ottawa. Im mostly interested in Systems Design and component integration. In addition to the applications of software in Engineering"
-  location         : "Ottawa, Ontario, Canada"
+  bio              : "I am an Electrical Engineering and Computer Technology Student at the University of Ottawa. Im mostly interested in Systems Design and component integration. In addition to the applications of software in Engineering"
+  location         : "Ottawa, Canada"
   email            : "anas.zurkiyeh@gmail.com"
   uri              :
   bitbucket        :
