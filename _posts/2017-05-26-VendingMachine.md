@@ -4,46 +4,40 @@ date: 2017-05-26 11:00:00
 ---
 
 
+# VHDL VendingMachine
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This is a VHDL project to implement a Vending Machine. The purpose of the project is to employ RTL design to implement a simple vending
+machine. This project demonstrates the importance of RTL design in solving hardware design problems. It employes two subsystems; a Controls subsystem and a Datapath subsystem. Each handles a specefic set of tasks to achieve the end goal. The two subsystems work in conjunction by exchanging internal inputs/outputs to output the final results.
 
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
+This projects was developed for a VLSI -Very Large Scale Integration- class. To show the capabilities of VHDL and Hardware Design in designing systems and solving problems. The purpose of this implementation is to employ RTL design as the main mechanism of the machine. In addition, to utilize an FPGA rather than a conventional Microprocessor/Single board computer to process data and execute commands.
+ 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+This project was developed using Altera Quartus II Web Edition. Simply clone the repo into your local directory and import the project.
 
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+![Simulation 1](screenshots/Type1_soda.PNG)
+![Simulation 2](screenshots/Type0_soda.PNG)
+![Simulation 3](screenshots/Reset.PNG)
+![Simulation 4](screenshots/Subsequent_despences.PNG)
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+This project was developed with the help of [Abdul-Sattar Aboukarr](linkedin.com/in/abdul-sattar-aboukarr)
 
 
 
+## Detailed Description
 
-# VHDL VendingMachine
 
-This is a VHDL project to implement a Vending Machine. The purpose of the project is to employ RTL design to implement a simple vending
-machine. For simplicity, the vending machine has two choices of items -This can easily be expanded to many more-. The value of each item 
+For simplicity, the vending machine has two choices of items -This can easily be expanded to many more-. The cost of each item 
 must be predefined by the user -Can be either hardcoded, or variable during simulation-.
 
 Upon simulations, Users must select their choice of items by setting the variable C either to 0 or 1. Then, users must feed the vending 

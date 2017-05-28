@@ -1,0 +1,237 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\AnasZ\Dropbox\Principles and Applications of VLSI Design (ELG4137)\Labs\Project\Vending_Machine\simulation\qsim
+vcontroller
+Z1 !s100 ^]:Wcj2K<:ic@DjEZGV:52
+Z2 ITA6LMNaL8bQWPKQkaIG9d1
+Z3 VUoUSQi4hElVAXCUkP=d:;3
+Z4 dC:\Users\AnasZ\Dropbox\Principles and Applications of VLSI Design (ELG4137)\Labs\Project\Vending_Machine\simulation\qsim
+Z5 w1491414299
+Z6 8Vending_Machine.vo
+Z7 FVending_Machine.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Vending_Machine.vo|
+Z10 o-work work -O0
+Z11 !s108 1491414301.838000
+Z12 !s107 Vending_Machine.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller_vlg_check_tst
+Z13 !s100 7YmPmXLncl]T[1SXXK6CB2
+Z14 I`QhmVzIhmllkD_o^nGHO=2
+Z15 VF5[z[`ehL9GFIkIX>9j?_1
+R4
+Z16 w1491252965
+Z17 8Vending_Machine.vt
+Z18 FVending_Machine.vt
+L0 75
+R8
+r1
+31
+Z19 !s108 1491252968.784000
+Z20 !s107 Vending_Machine.vt|
+Z21 !s90 -work|work|Vending_Machine.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller_vlg_sample_tst
+Z22 I8RhDKPjlTh0z:4nhJPegi1
+Z23 VkIMkXR9Ug3Az:g6j=HQb20
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+31
+R19
+R20
+R21
+R10
+Z24 !s100 igCUX?SLfi^FzMFN07OZ01
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller_vlg_vec_tst
+Z25 !s100 k`4]<K6C700`fFUmOReGk3
+Z26 IU41J9>j=c:MEV7a>gR<n`0
+Z27 VBSiG7>@g74A<1_=TC6R340
+R4
+Z28 w1491414298
+R17
+R18
+L0 29
+R8
+r1
+31
+R21
+R10
+Z29 !s108 1491414302.005000
+R20
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z30 IZDLUii0M=5S;e]MQ1ll510
+Z31 VWgSLlemgiB9NeGARYTPIM1
+R4
+Z32 w1491404031
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z33 !s100 ?o<[obo;nfH5HY8>C<Q8X3
+Z34 !s108 1491404038.980000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath_vlg_check_tst
+Z35 !s100 lzLWh;Ro0`29X7A_i9DOf2
+Z36 IW2hmB`73`VChdfO1AZbnU3
+Z37 V^on2WQY?`7U1>OT<ENab@0
+R4
+Z38 w1491404029
+R17
+R18
+L0 67
+R8
+r1
+31
+Z39 !s108 1491404040.807000
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath_vlg_sample_tst
+Z40 !s100 B=IKCO>I;7zO>6n@8bPGB3
+Z41 IBJH1zhZ3CH=6YA^]8U5k20
+Z42 VXfmWz[NYW<V76EmLNcaQZ3
+R4
+R38
+R17
+R18
+L0 29
+R8
+r1
+31
+R39
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath_vlg_vec_tst
+Z43 IiR2hP;m^ZRUl7L_mFFQRT2
+Z44 V^@Kb0LjGY<clOm@lcHMDA1
+R4
+R38
+R17
+R18
+Z45 L0 520
+R8
+r1
+31
+R39
+R20
+R21
+R10
+Z46 !s100 L3]g:CFhe1Lbh6l;m`I3?0
+!i10b 1
+!s85 0
+!s101 -O0
+vVending_Machine
+Z47 IoFmCJK<glzZbS1D4Ekcd[2
+Z48 VTF7z>cHST[6Y_:=?A43O20
+R4
+Z49 w1491420603
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z50 n@vending_@machine
+!i10b 1
+Z51 !s100 ]ci:LSSLk=einEG[?f^JJ1
+!s85 0
+Z52 !s108 1491420605.260000
+R12
+!s101 -O0
+vVending_Machine_vlg_check_tst
+!i10b 1
+Z53 !s100 e2fKHOUoUh<T^NXcGN3dT0
+Z54 I=M6>`b>BDbK@Ab@MIjGeo0
+Z55 Vf2U@OKCcH3m;B>dVjB7^20
+R4
+Z56 w1491420602
+R17
+R18
+L0 69
+R8
+r1
+!s85 0
+31
+Z57 !s108 1491420605.482000
+Z58 !s107 Vending_Machine.vt|
+R21
+!s101 -O0
+R10
+Z59 n@vending_@machine_vlg_check_tst
+vVending_Machine_vlg_sample_tst
+!i10b 1
+Z60 !s100 EML<_z=GCm62DaPJ7z_?Q1
+Z61 IYlckIa928l;Wc8@zk2b4a1
+Z62 VXMeWGV_mBgDe4bP7CIj5`2
+R4
+R56
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R57
+R58
+R21
+!s101 -O0
+R10
+Z63 n@vending_@machine_vlg_sample_tst
+vVending_Machine_vlg_vec_tst
+!i10b 1
+!s100 n_PzEGl?BC3n6Kjh0`9ZN3
+IV:`]o6Oz5N7EMU=IQklol0
+Z64 V=319g?k5@=6zf@WkO^7TT2
+R4
+R56
+R17
+R18
+Z65 L0 485
+R8
+r1
+!s85 0
+31
+R57
+R58
+R21
+!s101 -O0
+R10
+Z66 n@vending_@machine_vlg_vec_tst

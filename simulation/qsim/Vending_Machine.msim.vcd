@@ -1,0 +1,1153 @@
+$comment
+	File created using the following command:
+		vcd file Vending_Machine.msim.vcd -direction
+$end
+$date
+	Wed Apr 05 15:30:06 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Vending_Machine_vlg_vec_tst $end
+$var reg 1 ! C $end
+$var reg 1 " Choice $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$var reg 8 % S0 [7:0] $end
+$var reg 8 & S1 [7:0] $end
+$var reg 8 ' V [7:0] $end
+$var wire 1 ( D [1] $end
+$var wire 1 ) D [0] $end
+$var wire 1 * E [7] $end
+$var wire 1 + E [6] $end
+$var wire 1 , E [5] $end
+$var wire 1 - E [4] $end
+$var wire 1 . E [3] $end
+$var wire 1 / E [2] $end
+$var wire 1 0 E [1] $end
+$var wire 1 1 E [0] $end
+$var wire 1 2 P [7] $end
+$var wire 1 3 P [6] $end
+$var wire 1 4 P [5] $end
+$var wire 1 5 P [4] $end
+$var wire 1 6 P [3] $end
+$var wire 1 7 P [2] $end
+$var wire 1 8 P [1] $end
+$var wire 1 9 P [0] $end
+$var wire 1 : sampler $end
+$scope module i1 $end
+$var wire 1 ; gnd $end
+$var wire 1 < vcc $end
+$var wire 1 = unknown $end
+$var tri1 1 > devclrn $end
+$var tri1 1 ? devpor $end
+$var tri1 1 @ devoe $end
+$var wire 1 A controll_process|value_Coin[0]~0_combout $end
+$var wire 1 B controll_process|value_Coin[1]~1_combout $end
+$var wire 1 C controll_process|value_Coin[2]~2_combout $end
+$var wire 1 D controll_process|value_Coin[3]~3_combout $end
+$var wire 1 E controll_process|value_Coin[4]~4_combout $end
+$var wire 1 F controll_process|value_Coin[5]~5_combout $end
+$var wire 1 G clk~combout $end
+$var wire 1 H clk~clkctrl_outclk $end
+$var wire 1 I rst~combout $end
+$var wire 1 J datapath_Process|accumilate_output|reg_output|q[0]~8_combout $end
+$var wire 1 K Choice~combout $end
+$var wire 1 L controll_process|price[7]~7_combout $end
+$var wire 1 M C~combout $end
+$var wire 1 N controll_process|value_Coin[7]~7_combout $end
+$var wire 1 O controll_process|value_Coin[6]~6_combout $end
+$var wire 1 P datapath_Process|accumilate_output|reg_output|q[0]~9 $end
+$var wire 1 Q datapath_Process|accumilate_output|reg_output|q[1]~10_combout $end
+$var wire 1 R datapath_Process|accumilate_output|reg_output|q[1]~11 $end
+$var wire 1 S datapath_Process|accumilate_output|reg_output|q[2]~12_combout $end
+$var wire 1 T datapath_Process|accumilate_output|reg_output|q[2]~13 $end
+$var wire 1 U datapath_Process|accumilate_output|reg_output|q[3]~14_combout $end
+$var wire 1 V datapath_Process|accumilate_output|reg_output|q[3]~15 $end
+$var wire 1 W datapath_Process|accumilate_output|reg_output|q[4]~16_combout $end
+$var wire 1 X datapath_Process|accumilate_output|reg_output|q[4]~17 $end
+$var wire 1 Y datapath_Process|accumilate_output|reg_output|q[5]~18_combout $end
+$var wire 1 Z datapath_Process|accumilate_output|reg_output|q[5]~19 $end
+$var wire 1 [ datapath_Process|accumilate_output|reg_output|q[6]~21 $end
+$var wire 1 \ datapath_Process|accumilate_output|reg_output|q[7]~22_combout $end
+$var wire 1 ] controll_process|price[6]~6_combout $end
+$var wire 1 ^ controll_process|price[5]~5_combout $end
+$var wire 1 _ controll_process|price[4]~4_combout $end
+$var wire 1 ` controll_process|price[1]~1_combout $end
+$var wire 1 a controll_process|price[0]~0_combout $end
+$var wire 1 b datapath_Process|comapring_price|LessThan1~1_cout $end
+$var wire 1 c datapath_Process|comapring_price|LessThan1~3_cout $end
+$var wire 1 d datapath_Process|comapring_price|LessThan1~5_cout $end
+$var wire 1 e datapath_Process|comapring_price|LessThan1~7_cout $end
+$var wire 1 f datapath_Process|comapring_price|LessThan1~9_cout $end
+$var wire 1 g datapath_Process|comapring_price|LessThan1~11_cout $end
+$var wire 1 h datapath_Process|comapring_price|LessThan1~13_cout $end
+$var wire 1 i datapath_Process|comapring_price|LessThan1~14_combout $end
+$var wire 1 j controll_process|next_state~0_combout $end
+$var wire 1 k controll_process|present_state~regout $end
+$var wire 1 l controll_process|register_rst~0_combout $end
+$var wire 1 m datapath_Process|total_Register|q~0_combout $end
+$var wire 1 n datapath_Process|total_Register|q~1_combout $end
+$var wire 1 o datapath_Process|total_Register|q~2_combout $end
+$var wire 1 p datapath_Process|total_Register|q~3_combout $end
+$var wire 1 q datapath_Process|total_Register|q~4_combout $end
+$var wire 1 r datapath_Process|total_Register|q~5_combout $end
+$var wire 1 s datapath_Process|accumilate_output|reg_output|q[6]~20_combout $end
+$var wire 1 t datapath_Process|total_Register|q~6_combout $end
+$var wire 1 u datapath_Process|total_Register|q~7_combout $end
+$var wire 1 v datapath_Process|change_Register|q[0]~8_combout $end
+$var wire 1 w controll_process|price[3]~3_combout $end
+$var wire 1 x datapath_Process|comapring_price|LessThan0~1_cout $end
+$var wire 1 y datapath_Process|comapring_price|LessThan0~3_cout $end
+$var wire 1 z datapath_Process|comapring_price|LessThan0~5_cout $end
+$var wire 1 { datapath_Process|comapring_price|LessThan0~7_cout $end
+$var wire 1 | datapath_Process|comapring_price|LessThan0~9_cout $end
+$var wire 1 } datapath_Process|comapring_price|LessThan0~11_cout $end
+$var wire 1 ~ datapath_Process|comapring_price|LessThan0~13_cout $end
+$var wire 1 !! datapath_Process|comapring_price|LessThan0~14_combout $end
+$var wire 1 "! controll_process|enable_change_reg~0_combout $end
+$var wire 1 #! controll_process|enable_change_reg~combout $end
+$var wire 1 $! datapath_Process|change_Register|q[0]~9 $end
+$var wire 1 %! datapath_Process|change_Register|q[1]~10_combout $end
+$var wire 1 &! controll_process|price[2]~2_combout $end
+$var wire 1 '! datapath_Process|change_Register|q[1]~11 $end
+$var wire 1 (! datapath_Process|change_Register|q[2]~12_combout $end
+$var wire 1 )! datapath_Process|change_Register|q[2]~13 $end
+$var wire 1 *! datapath_Process|change_Register|q[3]~14_combout $end
+$var wire 1 +! datapath_Process|change_Register|q[3]~15 $end
+$var wire 1 ,! datapath_Process|change_Register|q[4]~16_combout $end
+$var wire 1 -! datapath_Process|change_Register|q[4]~17 $end
+$var wire 1 .! datapath_Process|change_Register|q[5]~18_combout $end
+$var wire 1 /! datapath_Process|change_Register|q[5]~19 $end
+$var wire 1 0! datapath_Process|change_Register|q[6]~20_combout $end
+$var wire 1 1! datapath_Process|change_Register|q[6]~21 $end
+$var wire 1 2! datapath_Process|change_Register|q[7]~22_combout $end
+$var wire 1 3! controll_process|soda_Dispense[0]~0_combout $end
+$var wire 1 4! controll_process|soda_Dispense[1]~1_combout $end
+$var wire 1 5! datapath_Process|total_Register|q [7] $end
+$var wire 1 6! datapath_Process|total_Register|q [6] $end
+$var wire 1 7! datapath_Process|total_Register|q [5] $end
+$var wire 1 8! datapath_Process|total_Register|q [4] $end
+$var wire 1 9! datapath_Process|total_Register|q [3] $end
+$var wire 1 :! datapath_Process|total_Register|q [2] $end
+$var wire 1 ;! datapath_Process|total_Register|q [1] $end
+$var wire 1 <! datapath_Process|total_Register|q [0] $end
+$var wire 1 =! datapath_Process|change_Register|q [7] $end
+$var wire 1 >! datapath_Process|change_Register|q [6] $end
+$var wire 1 ?! datapath_Process|change_Register|q [5] $end
+$var wire 1 @! datapath_Process|change_Register|q [4] $end
+$var wire 1 A! datapath_Process|change_Register|q [3] $end
+$var wire 1 B! datapath_Process|change_Register|q [2] $end
+$var wire 1 C! datapath_Process|change_Register|q [1] $end
+$var wire 1 D! datapath_Process|change_Register|q [0] $end
+$var wire 1 E! datapath_Process|accumilate_output|reg_output|q [7] $end
+$var wire 1 F! datapath_Process|accumilate_output|reg_output|q [6] $end
+$var wire 1 G! datapath_Process|accumilate_output|reg_output|q [5] $end
+$var wire 1 H! datapath_Process|accumilate_output|reg_output|q [4] $end
+$var wire 1 I! datapath_Process|accumilate_output|reg_output|q [3] $end
+$var wire 1 J! datapath_Process|accumilate_output|reg_output|q [2] $end
+$var wire 1 K! datapath_Process|accumilate_output|reg_output|q [1] $end
+$var wire 1 L! datapath_Process|accumilate_output|reg_output|q [0] $end
+$var wire 1 M! V~combout [7] $end
+$var wire 1 N! V~combout [6] $end
+$var wire 1 O! V~combout [5] $end
+$var wire 1 P! V~combout [4] $end
+$var wire 1 Q! V~combout [3] $end
+$var wire 1 R! V~combout [2] $end
+$var wire 1 S! V~combout [1] $end
+$var wire 1 T! V~combout [0] $end
+$var wire 1 U! S1~combout [7] $end
+$var wire 1 V! S1~combout [6] $end
+$var wire 1 W! S1~combout [5] $end
+$var wire 1 X! S1~combout [4] $end
+$var wire 1 Y! S1~combout [3] $end
+$var wire 1 Z! S1~combout [2] $end
+$var wire 1 [! S1~combout [1] $end
+$var wire 1 \! S1~combout [0] $end
+$var wire 1 ]! S0~combout [7] $end
+$var wire 1 ^! S0~combout [6] $end
+$var wire 1 _! S0~combout [5] $end
+$var wire 1 `! S0~combout [4] $end
+$var wire 1 a! S0~combout [3] $end
+$var wire 1 b! S0~combout [2] $end
+$var wire 1 c! S0~combout [1] $end
+$var wire 1 d! S0~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+1$
+b11001000 %
+b10101111 &
+b110010 '
+0)
+0(
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+09
+08
+07
+06
+05
+04
+03
+02
+x:
+0;
+1<
+x=
+1>
+1?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+1K
+1L
+0M
+0N
+0O
+0P
+0Q
+1R
+0S
+0T
+0U
+1V
+0W
+0X
+0Y
+1Z
+0[
+0\
+0]
+1^
+0_
+1`
+1a
+1b
+0c
+1d
+0e
+1f
+0g
+1h
+1i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+1v
+1w
+0x
+1y
+0z
+1{
+0|
+1}
+0~
+0!!
+1"!
+1#!
+0$!
+0%!
+1&!
+1'!
+0(!
+0)!
+0*!
+1+!
+1,!
+0-!
+0.!
+1/!
+10!
+01!
+02!
+13!
+04!
+0<!
+0;!
+0:!
+09!
+08!
+07!
+06!
+05!
+0D!
+0C!
+0B!
+0A!
+0@!
+0?!
+0>!
+0=!
+0L!
+0K!
+0J!
+0I!
+0H!
+0G!
+0F!
+0E!
+0T!
+1S!
+0R!
+0Q!
+1P!
+1O!
+0N!
+0M!
+1\!
+1[!
+1Z!
+1Y!
+0X!
+1W!
+0V!
+1U!
+0d!
+0c!
+0b!
+1a!
+0`!
+0_!
+1^!
+1]!
+$end
+#25000
+1#
+1G
+1H
+0:
+#50000
+1!
+0#
+1M
+0G
+0H
+1:
+1F
+1E
+1B
+1Y
+1W
+1Q
+#75000
+1#
+1G
+1H
+0:
+1G!
+1H!
+1K!
+1.!
+1r
+0Z
+0Y
+1-!
+0,!
+1|
+1q
+0f
+1X
+0W
+1%!
+1n
+0R
+0Q
+1s
+0/!
+0.!
+0}
+1g
+1Y
+1S
+11!
+00!
+1~
+0h
+12!
+#100000
+0!
+0#
+0M
+0G
+0H
+1:
+0F
+0E
+0B
+0Y
+0X
+1W
+1R
+1Q
+1Z
+1Y
+0S
+0s
+#125000
+1#
+1G
+1H
+0:
+17!
+18!
+1;!
+14
+15
+18
+#150000
+1!
+0#
+1M
+0G
+0H
+1:
+1F
+1E
+1B
+0Z
+0Y
+1X
+0W
+0R
+0Q
+1s
+1Y
+1S
+#175000
+1#
+1G
+1H
+0:
+1F!
+0H!
+1J!
+0K!
+10!
+1t
+1[
+0s
+0-!
+1,!
+0|
+0q
+1f
+0X
+1W
+1(!
+1o
+1T
+0S
+0%!
+0n
+1R
+1Q
+1\
+1/!
+1.!
+1}
+0g
+0Y
+1U
+0T
+1S
+00!
+0U
+#200000
+b10010 '
+b10 '
+b0 '
+0!
+0#
+0S!
+0P!
+0O!
+0M
+0G
+0H
+1:
+0B
+0E
+0F
+0Q
+0W
+1Z
+1Y
+0[
+1s
+0\
+#225000
+1#
+1G
+1H
+0:
+16!
+08!
+1:!
+0;!
+13
+05
+17
+08
+#250000
+1!
+0#
+1M
+0G
+0H
+1:
+#275000
+1#
+1G
+1H
+0:
+#300000
+b10000000 '
+b10000100 '
+b10010100 '
+b10010110 '
+0!
+0#
+1S!
+1R!
+1P!
+1M!
+0M
+0G
+0H
+1:
+#325000
+1#
+1G
+1H
+0:
+#350000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1E
+1C
+1B
+1\
+1W
+1T
+0S
+1Q
+1U
+#375000
+1#
+1G
+1H
+0:
+1E!
+1H!
+1I!
+0J!
+1K!
+02!
+1!!
+1u
+0i
+0\
+1-!
+0,!
+1|
+1q
+0f
+1X
+0W
+1*!
+1p
+0V
+0U
+0(!
+0o
+0T
+1S
+1%!
+1n
+0R
+0Q
+0"!
+1j
+0/!
+0.!
+0}
+1g
+0Z
+0Y
+1W
+1V
+1U
+1T
+0S
+0#!
+10!
+1[
+0s
+0W
+0V
+0U
+1\
+1W
+#400000
+b10110110 '
+b10110100 '
+0!
+0#
+0S!
+1O!
+0M
+0G
+0H
+1:
+0B
+0N
+0E
+0C
+1R
+1Q
+0\
+0W
+0T
+1S
+0S
+1V
+1U
+0X
+1W
+1Z
+1Y
+0[
+1s
+1\
+#425000
+1#
+1G
+1H
+0:
+1>!
+1A!
+1C!
+1D!
+15!
+18!
+19!
+0:!
+1;!
+1k
+14!
+0u
+0t
+0r
+0q
+0p
+0n
+1l
+0j
+1+
+1.
+10
+11
+12
+15
+16
+07
+18
+1(
+#450000
+0#
+0G
+0H
+1:
+#475000
+0$
+0"
+1#
+0I
+0K
+1G
+1H
+0:
+1#!
+04!
+03!
+0&!
+0a
+0`
+0^
+1]
+1(!
+1$!
+0v
+0b
+0'!
+0%!
+0y
+1c
+1.!
+00!
+0(
+1)
+1%!
+1)!
+0(!
+1z
+0d
+0+!
+0*!
+0{
+1e
+1,!
+05!
+06!
+0F!
+07!
+08!
+09!
+0;!
+0k
+0E!
+0G!
+0H!
+0I!
+0K!
+01!
+10!
+0~
+1h
+0s
+13!
+1j
+12!
+0!!
+1i
+0\
+0.!
+0Y
+0,!
+0W
+1+!
+1*!
+1{
+0e
+0U
+0%!
+1y
+0Q
+02
+03
+04
+05
+06
+08
+02!
+1"!
+0j
+0-!
+1,!
+0|
+1f
+0z
+0)
+1/!
+1.!
+1}
+0g
+00!
+#500000
+0#
+0G
+0H
+1:
+#525000
+1#
+1G
+1H
+0:
+0>!
+0A!
+0C!
+0D!
+0+
+0.
+00
+01
+#550000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1F
+1E
+1C
+1\
+1Y
+1W
+1S
+#575000
+1#
+1G
+1H
+0:
+#600000
+0!
+0#
+0M
+0G
+0H
+1:
+0N
+0F
+0E
+0C
+0\
+0Y
+0W
+0S
+#625000
+1#
+1G
+1H
+0:
+#650000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1F
+1E
+1C
+1\
+1Y
+1W
+1S
+#675000
+1$
+1#
+1I
+1G
+1H
+0:
+0l
+#700000
+0!
+0#
+0M
+0G
+0H
+1:
+0N
+0F
+0E
+0C
+0\
+0Y
+0W
+0S
+#725000
+1#
+1G
+1H
+0:
+#750000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1F
+1E
+1C
+1\
+1Y
+1W
+1S
+#775000
+1#
+1G
+1H
+0:
+1E!
+1G!
+1H!
+1J!
+12!
+1u
+0\
+0/!
+0.!
+0}
+1r
+1g
+0Z
+0Y
+1-!
+0,!
+1|
+1q
+0f
+1X
+0W
+1(!
+1z
+1o
+1T
+0S
+10!
+1s
+1.!
+1Y
+1U
+#800000
+0!
+0#
+0M
+0G
+0H
+1:
+0N
+0F
+0E
+0C
+1\
+0Y
+0X
+1W
+0T
+1S
+1Z
+1Y
+0U
+0s
+#825000
+1#
+1G
+1H
+0:
+15!
+17!
+18!
+1:!
+12
+14
+15
+17
+#850000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1F
+1E
+1C
+0\
+0Z
+0Y
+1X
+0W
+1T
+0S
+1s
+1Y
+1U
+#875000
+1#
+1G
+1H
+0:
+1F!
+0E!
+0H!
+1I!
+0J!
+11!
+00!
+1~
+1t
+0h
+1[
+0s
+02!
+0u
+1\
+0-!
+1,!
+0|
+0q
+1f
+0X
+1W
+0+!
+0*!
+0{
+1p
+1e
+0V
+0U
+0(!
+0z
+0o
+0T
+1S
+12!
+0\
+0.!
+0Y
+1-!
+0,!
+1|
+0f
+1X
+0W
+1{
+1V
+1U
+1.!
+1Y
+0|
+0X
+1W
+0Y
+#900000
+0!
+0#
+0M
+0G
+0H
+1:
+0N
+0F
+0E
+0C
+1\
+1Z
+1Y
+0W
+0S
+0[
+1s
+0\
+#925000
+1#
+1G
+1H
+0:
+05!
+16!
+08!
+19!
+0:!
+02
+13
+05
+16
+07
+#950000
+1!
+0#
+1M
+0G
+0H
+1:
+1N
+1F
+1E
+1C
+1\
+0Z
+0Y
+1W
+1S
+1[
+0s
+0\
+#975000
+1#
+1G
+1H
+0:
+0F!
+0G!
+1H!
+1J!
+01!
+10!
+0~
+0t
+1h
+0[
+1s
+0.!
+1}
+0r
+1Z
+1Y
+1,!
+1|
+1q
+1X
+0W
+1(!
+1z
+1o
+1T
+0S
+02!
+1\
+0s
+0}
+0Z
+0Y
+0{
+0V
+0U
+1s
+1W
+#1000000
