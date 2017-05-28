@@ -24,7 +24,7 @@ This project was developed using Altera Quartus II Web Edition. Simply clone the
 
 ## Tests
 
-For Simulations and tests, please refer to the README file in the project -Link above-.
+For simulations and tests, please refer to the README file in the project -Link above-.
 
 ## Contributors
 

@@ -16,7 +16,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "zurkiyeh/"
 teaser                   : "/assets/media/20170526_111400.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 20
+words_per_minute         : 30
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
