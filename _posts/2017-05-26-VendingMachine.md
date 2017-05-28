@@ -4,8 +4,6 @@ date: 2017-05-26 11:00:00
 ---
 
 
-# VHDL VendingMachine
-
 ## Synopsis
 
 This is a VHDL project to implement a Vending Machine. The purpose of the project is to employ RTL design to implement a simple vending
@@ -23,14 +21,14 @@ This project was developed using Altera Quartus II Web Edition. Simply clone the
 
 ## Tests
 
-![Simulation 1](screenshots/Type1_soda.PNG)
-![Simulation 2](screenshots/Type0_soda.PNG)
-![Simulation 3](screenshots/Reset.PNG)
-![Simulation 4](screenshots/Subsequent_despences.PNG)
+![Simulation 1](Type1_soda.PNG)
+![Simulation 2](Type0_soda.PNG)
+![Simulation 3](Reset.PNG)
+![Simulation 4](Subsequent_despences.PNG)
 
 ## Contributors
 
-This project was developed with the help of [Abdul-Sattar Aboukarr](linkedin.com/in/abdul-sattar-aboukarr)
+This project was developed with the help of [Abdul-Sattar Aboukarr](https://www.linkedin.com/in/abdul-sattar-aboukarr)
 
 
 
