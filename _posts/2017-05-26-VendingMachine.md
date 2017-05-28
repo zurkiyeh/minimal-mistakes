@@ -3,6 +3,10 @@ title: VHDL Vending Machine
 date: 2017-05-26 11:00:00
 ---
 
+## Project source code
+
+For the source code for this project, please refer to the following github repository [VHDL Vending Machine](https://github.com/zurkiyeh/VendingMachine)
+
 ## Synopsis
 
 This is a VHDL project to implement a Vending Machine. The purpose of the project is to employ RTL design to implement a simple vending
@@ -20,10 +24,7 @@ This project was developed using Altera Quartus II Web Edition. Simply clone the
 
 ## Tests
 
-![Simulation 1](Type1_soda.PNG)
-![Simulation 2](Type0_soda.PNG)
-![Simulation 3](Reset.PNG)
-![Simulation 4](Subsequent_despences.PNG)
+For Simulations and tests, please refer to the README file in the project -Link above-.
 
 ## Contributors
 
