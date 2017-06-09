@@ -24,7 +24,7 @@ Before using this API, JY901 sensors must be connected to a WIFI chip such as th
 To install and use the API, clone the repo to a Raspberry pi, navigate to [directory](https://github.com/zurkiyeh/ConfiguringJY901/tree/master/build/bin) then run the executable JY by following these instructions:  
 * To send a command, use the follwoing template ``` ./JY [IPAddress] [CommandName] [Parameter1] [Parameter2]```  
 * [IPAddress] is the IP Address allocated to the sensor by the WIFI chip.  
-* [CommandName] is obtained from the sensor user manual, or from the help command explained below, Note that [CommandName] is case insensitive. 
+* [CommandName] is obtained from the sensor [ user manual](https://github.com/zurkiyeh/ConfiguringJY901/blob/master/Documents/JY901%20User%20manual.pdf) , or from the help command explained below, Note that [CommandName] is case insensitive. 
 * [Parameter1], [Parameter2] are the values shown in the data sheet. For example; for the Baud rate Command ```BAUD```, users can input 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800 , 921600.  
 * For instructions that take only one parameter, [Parameter2] can be left empty.  
 * You can show a list of all available instructions, which shows the command names (CommandName) by executing ``` ./JY 0 help```  
@@ -39,3 +39,4 @@ For screenshots of how the API works, please refer to the [README in the project
 
 ## Detailed Description
 
+This implementation employs object oriented programming in designing the API. Commands are objects that contain different attributes such as names, hex codes and many more. It also relies on UDP sockets in transmitting and recieving of data. Different classes handle different tasks; for example, the class UserInput hanldes input from users and redirects it to an apprropriate function. Similarly, classes sendToSocket and Command exchange information to achieve different tasks.
