@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Anas Zurkiyeh"
   avatar           : "/assets/media/Profile_Pic.jpeg"
-  bio              : "I am a Software Product Owner at CAE for over 2 years. I aspire to have a long-lasting career in Software Integration and Deployment. I am interested in Continues Integration and Continues Deployment CI/CD and more especially, Docker and Kubernetes. My personal interests are travelling and soccer and reading about AI applications "
+  bio              : "I am a Software Product Owner at CAE for over 2 years. I aspire to have a long-lasting career in Software Integration and Deployment. I am interested in Continues Integration/Deployment CI/CD and more specifically, Docker and Kubernetes. My personal interests are travelling and soccer and reading about AI applications!"
   location         : "Montreal, Canada"
   email            : "anas.zurkiyeh@gmail.com"
   Education        : "Bachelor of Electrical Engineering and Computing Technology at the university of Ottawa"
