@@ -1,5 +1,5 @@
 ---
-title: Configuring JY901
+title: Romaeris JY901-API
 date: 2017-06-09 12:00:00
 ---
 ## Source Code
@@ -7,7 +7,7 @@ The source code of this project can be obtained by navigating to the [Github rep
 
 ## Synopsis
 
-This project was implemented to wirelessly configure a set of gyroscopes of type JY901. In this application, JY901 sensors are mounted on a UAV to aid in navigation, however, configuring JY901s requires physically removing them and connecting them serially to a device, then sending the command through a UART connection. This method is not only impractical, but it can affect the life-time of the JY901s as delicate electronics are not made for constant switching on and off.
+This project was implemented to wirelessly configure a set of gyroscopes of type JY901. In this application, JY901 sensors are mounted on a UAV to aid in navigation. However, configuring JY901s requires physically removing them and connecting them serially to a device, then sending the command through a UART connection. This method is not only impractical, but it can affect the life-time of the JY901s as delicate electronics are not made for constant switching on and off.
 
 ## Motivation
 
